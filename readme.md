@@ -11,7 +11,7 @@ This repository contains the steps and code needed to build a container image wi
 git clone git@github.com:fumeapp/lambda-node.git
 ```
 
-* Build and run the Lambda Nodejs v14 image source code (here)[https://github.com/aws/aws-lambda-base-images/tree/nodejs14.x]
+* Build and run the Lambda Nodejs v14 image source code [here](https://github.com/aws/aws-lambda-base-images/tree/nodejs14.x)
 
 ```shell
 ./build-v14.sh
