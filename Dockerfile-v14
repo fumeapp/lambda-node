@@ -1,0 +1,5 @@
+FROM public.ecr.aws/lambda/nodejs:14
+# run this container and then docker container-id cp runtime .
+
+COPY index.js ${LAMBDA_TASK_ROOT}
+CMD [ "index.handler" ]
